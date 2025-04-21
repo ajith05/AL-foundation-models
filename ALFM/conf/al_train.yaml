@@ -13,7 +13,7 @@ defaults:
 
 # Active Learning experiment config
 iterations:
-  n: 20
+  n: 2
   exp: false  # whether to use exponentially increasing budgets
 
 budget: # query budget per class
@@ -34,7 +34,7 @@ ssl:
 classifier:
   params:
     dropout_p: 0.75
-    lr: 1e-2                 # cifar10: 1e-3, cifar100: 1e-2
+    lr: 1e-3                 # cifar10: 1e-3, cifar100: 1e-2
     weight_decay: 1e-2
 
     metrics:
