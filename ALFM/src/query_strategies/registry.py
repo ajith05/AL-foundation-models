@@ -14,6 +14,7 @@ from ALFM.src.query_strategies.probcover import ProbCover
 from ALFM.src.query_strategies.random import Random
 from ALFM.src.query_strategies.typiclust import Typiclust
 from ALFM.src.query_strategies.uncertainty import Uncertainty
+from ALFM.src.query_strategies.eden import Eden
 
 
 class QueryType(Enum):
@@ -31,3 +32,4 @@ class QueryType(Enum):
     alfamix = AlfaMix
     typiclust = Typiclust
     dropout = Dropout
+    eden = Eden

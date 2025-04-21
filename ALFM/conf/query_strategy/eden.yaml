@@ -1,0 +1,9 @@
+# @package _global_
+defaults:
+  - override /init_strategy: centroid_init
+
+query_strategy:
+  name: eden
+  params:
+    mode: mixed      # Options: 'low', 'high', 'mixed'
+    k: 10            # Number of neighbors to consider for density calculation
